@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://calldirectorai.github.io/junk-removal-montgomery-county/sitemap.xml
+Sitemap: https://junkremovalmontgomerycounty.com/sitemap.xml
