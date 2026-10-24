@@ -38,7 +38,7 @@ nav.main a{flex:none;text-decoration:none;font-size:14.5px;font-weight:600;color
 nav.main a[aria-current=page]{background:var(--ink);color:#fff}
 @media (hover:hover) and (pointer:fine){nav.main a:not([aria-current=page]):hover{background:var(--soft);color:var(--acc2)}}
 /* buttons */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:12px;border:0;font:700 16px Inter,sans-serif;text-decoration:none;cursor:pointer;transition:transform .16s var(--ease),background-color .2s var(--ease),box-shadow .2s var(--ease)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:12px;border:0;font:700 16px Inter,sans-serif;text-decoration:none;cursor:pointer;white-space:nowrap;transition:transform .16s var(--ease),background-color .2s var(--ease),box-shadow .2s var(--ease)}
 .btn:active{transform:scale(.97)}
 .btn-acc{background:var(--acc);color:#fff;box-shadow:0 6px 18px -8px rgba(232,89,12,.7)}
 .btn-dark{background:var(--ink);color:#fff}
@@ -122,13 +122,13 @@ footer .legal{border-top:1px solid #292524;margin-top:26px;padding-top:18px;font
 #jrBubble::after{content:"";position:absolute;right:26px;bottom:-7px;width:12px;height:12px;background:#fff;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transform:rotate(45deg)}
 /* responsive */
 @media (max-width:900px){.hero .grid,.split{grid-template-columns:1fr}.tl{grid-template-columns:1fr 1fr}footer .fgrid{grid-template-columns:1fr 1fr}}
-@media (max-width:560px){.tl{grid-template-columns:1fr}footer .fgrid{grid-template-columns:1fr}.hcta .btn-dark{display:none}.logo{font-size:15.5px}.btn{width:100%}.hcta .btn{width:auto}#jrBubble{right:16px;max-width:220px}}
+@media (max-width:560px){.tl{grid-template-columns:1fr}footer .fgrid{grid-template-columns:1fr}.hcta .num{display:none}.hcta .btn-sm{padding:0 13px}.logo small{display:none}.logo{font-size:15.5px}.btn{width:100%}.hcta .btn{width:auto}#jrBubble{right:16px;max-width:220px}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.hero-in>*{opacity:1;transform:none}html{scroll-behavior:auto}}
-</style><script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Service", "serviceType": "Junk removal", "name": "Montgomery County Junk Removal - Bethesda", "url": "https://junkremovalmontgomerycounty.com/junk-removal-bethesda-md/", "areaServed": {"@type": "City", "name": "Bethesda, Maryland"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do you pick up junk in Bethesda?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Bethesda (20814, 20816, 20817) is part of the Montgomery County service area. Send a request with your ZIP code and a local crew follows up."}}, {"@type": "Question", "name": "How much is junk removal in Bethesda?", "acceptedAnswer": {"@type": "Answer", "text": "Price depends on how much truck space your items take and whether anything is especially heavy. It's confirmed on site before work starts, and the quote is free."}}, {"@type": "Question", "name": "What can't be taken?", "acceptedAnswer": {"@type": "Answer", "text": "Hazardous materials such as paint, chemicals, fuel, propane tanks, asbestos and medical waste can't go in the truck. Montgomery County runs a household hazardous waste drop-off for those."}}]}]</script>
+</style><script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Service", "serviceType": "Junk removal", "name": "Montgomery County Junk Removal - Bethesda", "url": "https://junkremovalmontgomerycounty.com/junk-removal-bethesda-md/", "telephone": "+12409291170", "areaServed": {"@type": "City", "name": "Bethesda, Maryland"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do you pick up junk in Bethesda?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Bethesda (20814, 20816, 20817) is part of the Montgomery County service area. Send a request with your ZIP code and a local crew follows up."}}, {"@type": "Question", "name": "How much is junk removal in Bethesda?", "acceptedAnswer": {"@type": "Answer", "text": "Price depends on how much truck space your items take and whether anything is especially heavy. It's confirmed on site before work starts, and the quote is free."}}, {"@type": "Question", "name": "What can't be taken?", "acceptedAnswer": {"@type": "Answer", "text": "Hazardous materials such as paint, chemicals, fuel, propane tanks, asbestos and medical waste can't go in the truck. Montgomery County runs a household hazardous waste drop-off for those."}}]}]</script>
 </head><body>
 <header><div class="wrap"><div class="hrow">
 <a class="logo" href="../" aria-label="Montgomery County Junk Removal home"><svg width="38" height="38" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1C1917"/><path d="M14 40h26V24h8l6 9v7h-4" fill="none" stroke="#E8590C" stroke-width="5" stroke-linejoin="round"/><circle cx="22" cy="44" r="5" fill="#FAF7F2"/><circle cx="46" cy="44" r="5" fill="#FAF7F2"/></svg><span>Montgomery County<br>Junk Removal<small>Montgomery County, MD</small></span></a>
-<div class="hcta"><a class="btn btn-acc btn-sm" href="#quote" data-open-quote>Free quote</a></div>
+<div class="hcta"><a class="btn btn-dark btn-sm" href="tel:+12409291170" aria-label="Call (240) 929-1170">Call<span class="num">(240) 929-1170</span></a><a class="btn btn-acc btn-sm" href="#quote" data-open-quote>Free quote</a></div>
 </div><nav class="main" aria-label="Main"><a href="../">Home</a><a href="../services/">Services</a><a href="../service-areas/" aria-current=page>Service areas</a><a href="../how-it-works/">How it works</a><a href="../faq/">FAQ</a></nav></div></header>
 <main>
 
@@ -154,7 +154,7 @@ footer .legal{border-top:1px solid #292524;margin-top:26px;padding-top:18px;font
 <button type="button" class="btn btn-acc" id="qBtn" aria-expanded="false" aria-controls="qPanel">Start my free quote</button>
 <div id="qStatus" role="status" aria-live="polite"></div>
 <div id="qPanel"><div id="qHost"></div></div>
-<p class="privacy">We only use your details to respond to your quote request. Prefer to chat? Tap the chat button in the corner.</p>
+<p class="privacy">We only use your details to respond to your quote request. Prefer to talk? Call or text <a href="tel:+12409291170" style="color:var(--acc2);font-weight:700">(240) 929-1170</a>, or tap the chat button.</p>
 </div></div></section>
 <section style="padding-top:0"><div class="wrap">
 <span class="eyebrow">How it works</span><h2>What happens after you send a request</h2>
@@ -176,7 +176,7 @@ footer .legal{border-top:1px solid #292524;margin-top:26px;padding-top:18px;font
 <footer><div class="wrap"><div class="fgrid">
 <div><a class="logo" href="../" style="color:#fff"><svg width="38" height="38" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1C1917"/><path d="M14 40h26V24h8l6 9v7h-4" fill="none" stroke="#E8590C" stroke-width="5" stroke-linejoin="round"/><circle cx="22" cy="44" r="5" fill="#FAF7F2"/><circle cx="46" cy="44" r="5" fill="#FAF7F2"/></svg><span>Montgomery County<br>Junk Removal</span></a>
 <p style="margin-top:12px;max-width:340px">Junk removal requests for homes and businesses across Montgomery County, Maryland.</p>
-<p style="margin-top:10px"><a href="mailto:info@junkremovalmontgomerycounty.com">info@junkremovalmontgomerycounty.com</a></p></div>
+<p style="margin-top:10px"><a href="tel:+12409291170">(240) 929-1170</a><br><a href="mailto:info@junkremovalmontgomerycounty.com">info@junkremovalmontgomerycounty.com</a></p></div>
 <div><h4>Services</h4><a href="../services/#furniture">Furniture removal</a><br><a href="../services/#appliances">Appliance removal</a><br><a href="../services/#cleanouts">Garage, basement and attic cleanouts</a><br><a href="../services/#estate">Estate and move-out cleanouts</a><br><a href="../services/#yard">Yard debris</a><br><a href="../services/#hot-tub-shed">Hot tub and shed removal</a><br></div>
 <div><h4>Service areas</h4><a href="../junk-removal-germantown-md/">Germantown</a><br><a href="../junk-removal-gaithersburg-md/">Gaithersburg</a><br><a href="../junk-removal-rockville-md/">Rockville</a><br><a href="../junk-removal-silver-spring-md/">Silver Spring</a><br><a href="../junk-removal-bethesda-md/">Bethesda</a><br><a href="../junk-removal-potomac-md/">Potomac</a><br><a href="../junk-removal-olney-md/">Olney</a><br><a href="../junk-removal-clarksburg-md/">Clarksburg</a><br><a href="../service-areas/">All areas</a></div>
 </div>
@@ -186,7 +186,7 @@ footer .legal{border-top:1px solid #292524;margin-top:26px;padding-top:18px;font
 <div id="jrBubble" role="dialog" aria-label="Chat invitation" hidden><span>Got junk to clear out? Ask me here, or get a free quote in a minute.</span><button type="button" aria-label="Dismiss">&times;</button></div>
 <script>
 (function(){
-  var FORM_ID="ttmt3n9r", PHONE="", t0=Date.now();
+  var FORM_ID="ttmt3n9r", PHONE="(240) 929-1170", t0=Date.now();
   var btn=document.getElementById('qBtn'), panel=document.getElementById('qPanel'),
       host=document.getElementById('qHost'), status=document.getElementById('qStatus');
   var st={loaded:false,loading:false,timer:null,thanks:null,closeT:null};
